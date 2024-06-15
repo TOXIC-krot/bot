@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
